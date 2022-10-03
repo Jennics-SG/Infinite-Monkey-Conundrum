@@ -11,7 +11,7 @@ const Monkey = require('./Monkey.js');
 const init = () => {
     // initialise express app
     this.app = express();
-    this.port = 3000;
+    this.port = 8080;
     this.app.set('view engine', 'ejs');
 
     // Initialise monkey and wordlist
