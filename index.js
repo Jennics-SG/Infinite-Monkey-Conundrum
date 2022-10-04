@@ -70,14 +70,8 @@ const server = () => {
     });
 }
 
-<<<<<<< HEAD
-
-//------------------------------------------------------------------------
-const isWord = () => {
-=======
 // Put any words found into a JSON
 const wordsInJSON = () => {
->>>>>>> 39c399a5b54f3cc852e75e543576eb609bcde964
     const letterJSON = require('./letters.json');
     const monkeyWordArray = letterJSON.letters;
     const potentialWords = new Array();
