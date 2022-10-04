@@ -7,6 +7,8 @@ const express = require('express');
 const fs = require('fs');
 const Monkey = require('./Monkey.js');
 
+
+//------------------------------------------------------------------------
 // Initialise server variables
 const init = () => {
     // initialise express app
@@ -27,6 +29,8 @@ const init = () => {
     console.log('Monkey server running');
 }
 
+
+//------------------------------------------------------------------------
 // Server runtime function
 const server = () => {
     // listens for actiity on root page
@@ -60,6 +64,8 @@ const server = () => {
     });
 }
 
+
+//------------------------------------------------------------------------
 const isWord = () => {
     const letterJSON = require('./letters.json');
     const monkeyWordArray = letterJSON.letters;
@@ -91,6 +97,8 @@ const isWord = () => {
     loop()
 }
 
+
+//------------------------------------------------------------------------
 // Get letter and add it too the JSON
 const getLetter = () => {
     // Gets a letters, adds it to the current contents of the JSON and then
@@ -102,7 +110,7 @@ const getLetter = () => {
 
         let char = this.Monkey.typeWriter.keys[num];
 
-        letterJSON.letters.push(char);
+        letterJSON.letters.unshift(char);
         let data = JSON.stringify(letterJSON);
         fs.writeFile('letters.json', data, err => {
             if (err)
