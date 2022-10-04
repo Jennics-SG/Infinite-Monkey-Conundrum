@@ -15,7 +15,7 @@ const debug = require('debug')('app')
 const init = () => {
     // initialise express app
     this.app = express();
-    this.port = 3000;
+    this.port = 8080;
     this.app.set('view engine', 'ejs');
 
     // Initialise monkey and wordlist
@@ -24,7 +24,7 @@ const init = () => {
     const wordListPath = require('word-list');
     this.wordArray = fs.readFileSync(wordListPath, 'utf8').split('\n');
 
-    isWord();
+    wordsInJSON();
     getLetter();
     server.bind(this)();
 
@@ -70,37 +70,79 @@ const server = () => {
     });
 }
 
+<<<<<<< HEAD
 
 //------------------------------------------------------------------------
 const isWord = () => {
+=======
+// Put any words found into a JSON
+const wordsInJSON = () => {
+>>>>>>> 39c399a5b54f3cc852e75e543576eb609bcde964
     const letterJSON = require('./letters.json');
     const monkeyWordArray = letterJSON.letters;
+    const potentialWords = new Array();
 
-    const loop = () => {
-        for(const word of this.wordArray){
-            if(word.length >= 2 && word[word.length - 1] == monkeyWordArray[monkeyWordArray.length - 1]){
-                let substring = monkeyWordArray.slice(-word.length);
+    // Get all words possible at the moment
+    for (const word of this.wordArray){
+        if(word.length >> 2 && 
+            word[word.length - 1] == monkeyWordArray[monkeyWordArray.length - 1]){
+            const substring = monkeyWordArray.slice(-word.length);
 
-                if(substring.toString().replaceAll(',' , '') == word){
-                    letterJSON.words.push(
-                        [word, 
-                        monkeyWordArray.length - word.length,
-                        monkeyWordArray.length - 1]);
+            if(substring.toString().replaceAll(',', '') == word)
+                potentialWords.push([
+                    word,
+                    monkeyWordArray.length - word.length,
+                    monkeyWordArray.length - 1]);
+        }
+    }
 
-                    let data = JSON.stringify(letterJSON);
 
-                    fs.writeFile('./letters.json', data, err => {
-                        if (err)
-                            console.error(err);
-                        else
-                            console.log('Monkey made a word')
-                    })
+    console.log(potentialWords);
+
+    // Get the longest word of possible words
+    let longestFound = new Array("", 0, 0);
+    for(const obj of potentialWords){
+        if(obj[0].length >= longestFound[0].length){
+            longestFound = obj;
+        }
+    }
+
+    // Check the longest word against last word in JSON
+
+    // If the longest word contains the last word, we can check the index to make sure that
+    // the word exists in the same place before removing it
+    if(letterJSON.words.length >> 0){
+        if(longestFound[0].includes(
+            letterJSON.words[letterJSON.words.length - 1][0])){
+                let longStartIndex = longestFound[1];
+                let longFinIndex = longestFound[2];
+
+                let lastStartIndex = letterJSON.words[letterJSON.words.length - 1][1];
+                let lastFinIndex = letterJSON.words[letterJSON.words.length - 1][2];
+
+                // Ensure the substring is within the string
+                if(lastStartIndex >= longStartIndex && lastFinIndex <= longFinIndex){
+                    letterJSON.words.pop();
                 }
             }
         }
-        setTimeout(loop, 1000)
-    }
-    loop()
+
+        // If the longest found word is more than 2 push it to the JSON
+        if(longestFound[0].length >> 2){
+            letterJSON.words.push(longestFound);
+
+            let data = JSON.stringify(letterJSON);
+
+            fs.writeFile('letters.json', data, err => {
+                if(err)
+                    console.error(`The monkeys started playing with their shit \n${err}`)
+                else
+                    console.log(`Monkey wrote ${longestFound}`)
+            })
+        }
+
+    setTimeout(wordsInJSON, 1000);
+    
 }
 
 
