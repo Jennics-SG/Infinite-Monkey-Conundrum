@@ -80,9 +80,6 @@ const wordsInJSON = () => {
         }
     }
 
-
-    console.log(potentialWords);
-
     // Get the longest word of possible words
     let longestFound = new Array("", 0, 0);
     for(const obj of potentialWords){
