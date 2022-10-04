@@ -6,6 +6,7 @@
 const express = require('express');
 const fs = require('fs');
 const Monkey = require('./Monkey.js');
+const path = require('path')
 
 
 //------------------------------------------------------------------------
@@ -47,6 +48,10 @@ const server = () => {
         // Render page with data
         res.render('index',{letters: letters})
     });
+
+    this.app.get('/style.css', (req, res) => {
+        res.sendFile(path.join(__dirname, '/static/css/style.css'))
+    })
 
     this.app.get('/about', (req, res) => {
         console.log('User has connected to about');
