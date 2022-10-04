@@ -7,6 +7,7 @@ const express = require('express');
 const fs = require('fs');
 const Monkey = require('./Monkey.js');
 const path = require('path')
+const debug = require('debug')('app') 
 
 
 //------------------------------------------------------------------------
@@ -65,7 +66,7 @@ const server = () => {
     })
 
     this.app.listen(this.port, () => {
-        console.log(`Server Listening on port ${this.port}`);
+        debug(`Server Listening on port ${this.port}`);
     });
 }
 
