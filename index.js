@@ -46,8 +46,11 @@ const server = () => {
         let charactersStr = data.display.toString().replaceAll(',', '');
         let letters = charactersStr.replaceAll('**', ',');
 
+        let mostRecent = data.display.slice(-60).toString().replaceAll(',', '');
+        console.log(mostRecent);
+
         // Render page with data
-        res.render('index',{letters: letters})
+        res.render('index',{letters: letters, mostRecent: mostRecent})
     });
 
     this.app.get('/style.css', (req, res) => {
@@ -62,7 +65,7 @@ const server = () => {
         let text = data.about.text;
         let link = data.about.link;
 
-        res.render('index', {letters: text, url: link})
+        res.render('index', {letters: text, url: link, url: '/about'})
     })
 
     this.app.listen(this.port, () => {
@@ -126,7 +129,7 @@ const wordsInJSON = () => {
             for(let i = 0; i <= longestFound[0].length; i++)
                 letterJSON.display.pop()
 
-            letterJSON.display.push(`<em style='color:red'>${longestFound[0]}</em>`)
+            letterJSON.display.push(`<em style='color:lightblue'>${longestFound[0]}</em>`)
 
             let data = JSON.stringify(letterJSON);
 
@@ -158,6 +161,7 @@ const getLetter = () => {
 
         letterJSON.letters.push(char);
         letterJSON.display.push(char);
+
         let data = JSON.stringify(letterJSON);
         fs.writeFile('letters.json', data, err => {
             if (err)

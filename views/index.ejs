@@ -11,10 +11,16 @@
     </head>
     <body>
         <h1 style="text-align: center;">The Infinite Monkey Conundrum</h1>
-        <a href ="<%= locals.url %>">Click here to learn more</a>
         <br>
-        <div id="content">
-            <p id="content"> <%- locals.letters %> </p>
+        <% if(locals.mostRecent) { %>
+        <div id = "fullContent" style="text-align:center ">
+            <h3>In the past minute they Monkey has wrote</h3>
+            <p> <%- locals.mostRecent %> </p>
+        </div>
+        <% } %>
+        <br/>
+        <div id = "fullContent">
+            <p> <%- locals.letters %> </p>
         </div>
     </body>
 </html>
