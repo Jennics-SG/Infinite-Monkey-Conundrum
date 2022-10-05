@@ -21,7 +21,7 @@ const init = () => {
     this.wordArray = fs.readFileSync(wordListPath, 'utf8').split('\n');
 
     wordsInJSON();
-    //getLetter();
+    getLetter();
     server.bind(this)();
 
     console.log('Monkey server running');
