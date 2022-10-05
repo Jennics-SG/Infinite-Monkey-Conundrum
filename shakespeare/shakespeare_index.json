@@ -1,0 +1,967 @@
+[{
+    "title": "All's well that ends well",
+    "shorthand": "allswell",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3]
+        }
+    ]
+},
+{
+    "title": "As you like it",
+    "shorthand": "asyoulikeit",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4]
+        }
+    ]
+},
+{
+    "title": "The comedy of errors",
+    "shorthand": "comedy_errors",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 5,
+            "scenes": [1]
+        }
+    ]
+},
+{
+    "title": "Cymbeline",
+    "shorthand": "cymbeline",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 4, 5]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "Loves labours lost",
+    "shorthand": "lll",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [1]
+        },
+        {
+            "act": 3,
+            "scenes": [1]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2]
+        }
+    ]
+},
+{
+    "title": "Measure for measure",
+    "shorthand": "measure",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 5,
+            "scenes": [1]
+        }
+    ]
+},
+{
+    "title": "The merry wives of windsor",
+    "shorthand": "merry_wives",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "The merchant of venice",
+    "shorthand": "merchant",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 5,
+            "scenes": [1]
+        }
+    ]
+},
+{
+    "title": "A midsummer night's dream",
+    "shorthand": "midsummer",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 5,
+            "scenes": [1]
+        }
+    ]
+},
+{
+    "title": "Much ado about nothing",
+    "shorthand": "much_ado",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4]
+        }
+    ]
+},
+{
+    "title": "Pericles, prince of tyre",
+    "shorthand": "pericles",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [0, 1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 3,
+            "scenes": [2, 3, 4]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 5, 6]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 3]
+        }
+    ]
+},
+{
+    "title": "The taming of the shrew",
+    "shorthand": "taming_shrew",
+    "acts":[
+        {
+            "act": 0,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 1,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [1]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2]
+        }
+    ]
+},
+{
+    "title": "The tempest",
+    "shorthand": "tempest",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 4,
+            "scenes": [1]
+        },
+        {
+            "act": 5,
+            "scenes": [1]
+        }
+    ]
+},
+{
+    "title": "Troilus and Cressida",
+    "shorthand": "troilus_cressida",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        }
+    ]
+},
+{
+    "title": "Twelfth night",
+    "shorthand": "twelfth_night",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1]
+        }
+    ]
+},
+{
+    "title": "Two gentlemen of verona",
+    "shorthand": "two_gentlemen",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4]
+        }
+    ]
+},
+{
+    "title": "Winter's tale",
+    "shorthand": "winters_tale",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 4,
+            "scenes": [2, 3, 4]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3]
+        }
+    ]
+},
+{
+    "title": "Henry IV, part 1",
+    "shorthand": "1henryiv",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "Henry IV, part 2",
+    "shorthand": "2henryiv",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "Henry V",
+    "shorthand": "henryv",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [0, 1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [0, 1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [0, 1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 4,
+            "scenes": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+        },
+        {
+            "act": 5,
+            "scenes": [0, 1, 2]
+        }
+    ]
+},
+{
+    "title": "Henry VI, part 1",
+    "shorthand": "1henryvi",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "Henry VI, part 2",
+    "shorthand": "2henryvi",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3]
+        }
+    ]
+},
+{
+    "title": "Henry VI, part 3",
+    "shorthand": "3henryvi",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        }
+    ]
+},
+{
+    "title": "Henry VIII",
+    "shorthand": "henryviii",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [0, 1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "King John",
+    "shorthand": "john",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1]
+        },
+        {
+            "act": 2,
+            "scenes": [1]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        }
+    ]
+},
+{
+    "title": "Richard II",
+    "shorthand": "richardii",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 4,
+            "scenes": [1]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        }
+    ]
+},
+{
+    "title": "Richard III",
+    "shorthand": "richardiii",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "Antony and Cleopatra",
+    "shorthand": "cleopatra",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2]
+        }
+    ]
+},
+{
+    "title": "The tragedy of Coriolanus",
+    "shorthand": "coriolanus",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        }
+    ]
+},
+{
+    "title": "The tragedy of Hamlet, prince of Denmark",
+    "shorthand": "hamlet",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2]
+        }
+    ]
+},
+{
+    "title": "The life and death of Julius Caesar",
+    "shorthand": "julius_caesar",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5]
+        }
+    ]
+},
+{
+    "title": "King Lear",
+    "shorthand": "lear",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3]
+        }
+    ]
+},
+{
+    "title": "The tragedy of Macbeth",
+    "shorthand": "macbeth",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3, 4, 5, 6, 7]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4, 5, 6, 7, 8]
+        }
+    ]
+},
+{
+    "title": "Othello, the moore of Venice",
+    "shorthand": "othello",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2]
+        }
+    ]
+},
+{
+    "title": "Romeo an Juliet",
+    "shorthand": "romeo_juliet",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [0, 1, 2, 3, 4, 5]
+        },
+        {
+            "act": 2,
+            "scenes": [0, 1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4, 5]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3]
+        }
+    ]
+},
+{
+    "title": "Timon of Athens",
+    "shorthand": "timon",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2, 3, 4, 5, 6]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3, 4]
+        }
+    ]
+},
+{
+    "title": "Titus Andronicus",
+    "shorthand": "titus",
+    "acts":[
+        {
+            "act": 1,
+            "scenes": [1]
+        },
+        {
+            "act": 2,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 3,
+            "scenes": [1, 2]
+        },
+        {
+            "act": 4,
+            "scenes": [1, 2, 3, 4]
+        },
+        {
+            "act": 5,
+            "scenes": [1, 2, 3]
+        }
+    ]
+}
+]
