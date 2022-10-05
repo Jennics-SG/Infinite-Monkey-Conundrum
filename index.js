@@ -6,7 +6,11 @@
 const express = require('express');
 const fs = require('fs');
 const Monkey = require('./Monkey.js');
+const path = require('path')
+const debug = require('debug')('app') 
 
+
+//------------------------------------------------------------------------
 // Initialise server variables
 const init = () => {
     // initialise express app
@@ -27,6 +31,8 @@ const init = () => {
     console.log('Monkey server running');
 }
 
+
+//------------------------------------------------------------------------
 // Server runtime function
 const server = () => {
     // listens for actiity on root page
@@ -44,6 +50,10 @@ const server = () => {
         res.render('index',{letters: letters})
     });
 
+    this.app.get('/style.css', (req, res) => {
+        res.sendFile(path.join(__dirname, '/static/css/style.css'))
+    })
+
     this.app.get('/about', (req, res) => {
         console.log('User has connected to about');
 
@@ -56,7 +66,7 @@ const server = () => {
     })
 
     this.app.listen(this.port, () => {
-        console.log(`Server Listening on port ${this.port}`);
+        debug(`Server Listening on port ${this.port}`);
     });
 }
 
@@ -133,6 +143,8 @@ const wordsInJSON = () => {
     
 }
 
+
+//------------------------------------------------------------------------
 // Get letter and add it too the JSON
 const getLetter = () => {
     // Gets a letters, adds it to the current contents of the JSON and then

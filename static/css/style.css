@@ -1,0 +1,13 @@
+#content {
+    width: 99%;
+    text-align: left;
+    overflow-x: auto;
+    overflow-wrap: anywhere;
+    word-break: break-all;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.word {
+    background-color: blue;
+}
